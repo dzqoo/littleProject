@@ -171,11 +171,3 @@ if __name__ == "__main__":
     app =  QApplication(sys.argv)
     ui =Ui()
     sys.exit(app.exec_())
-# if __name__ == '__main__':
-#     hostsPath = dirpath + "/hosts"
-#     reName()
-#     page = getPage()
-#     parser = MyHTMLParser()
-#     parser.feed(page)
-#     saveFile = "./data/data"
-#     generateHosts(saveData(parser.item,saveFile),hostsPath)
